@@ -57,12 +57,12 @@
                                     id="shopping-wishlist">{{ Cart::instance('wishlist')->count() }}</span>
                                 </a>
                             </li>
-                            <li class="rd-dropdown-item">
+                            {{-- <li class="rd-dropdown-item">
                                 <a class="rd-dropdown-link" href="{{ sc_route('compare') }}"><i class="fa fa-exchange"></i> {{ sc_language_render('front.compare') }} 
                                     <span class="count sc-compare"
                                     id="shopping-compare">{{ Cart::instance('compare')->count() }}</span>
                                 </a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </li>
 
@@ -78,12 +78,12 @@
                                     id="shopping-wishlist">{{ Cart::instance('wishlist')->count() }}</span>
                                 </a>
                             </li>
-                            <li class="rd-dropdown-item">
+                            {{-- <li class="rd-dropdown-item">
                                 <a class="rd-dropdown-link" href="{{ sc_route('compare') }}"><i class="fa fa-exchange"></i> {{ sc_language_render('front.compare') }} 
                                     <span class="count sc-compare"
                                     id="shopping-compare">{{ Cart::instance('compare')->count() }}</span>
                                 </a>
-                            </li>
+                            </li> --}}
                             <form id="logout-form" action="{{ sc_route('logout') }}" method="POST" style="display: none;">
                               @csrf
                             </form>
