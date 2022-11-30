@@ -27,9 +27,9 @@ $layout_page = shop_cart
 
             {{-- Render cart item for earch shop --}}
             @foreach ($cartTmp as $sId => $cartItem)
-            <div class="col-md-12">
+            {{-- <div class="col-md-12">
                 <h5><i class="fa fa-shopping-bag" aria-hidden="true"></i>  {{ sc_store('title', $sId) }}</h5>
-            </div>
+            </div> --}}
 
             <div class="col-md-12">
                 <form action="{{ sc_route('checkout.prepare') }}" method="POST">

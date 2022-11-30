@@ -110,4 +110,46 @@ img.new {
 .sc-point {
   cursor: pointer;
 }
+.new-table{
+  width: 100%
+}
+table,
+      th,
+      td {
+        border: none;
+        color: #58514f;
+      }
+      tbody>tr{
+       margin-bottom: 1rem
+      }
+   td > div {
+        display: flex;
+      }
+      .info-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.6rem;
+      }
+      .cart-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.2rem;
+                object-fit: contain
+
+      }
+      .img-div {
+        width: 7rem;
+        height: 6rem;
+        margin-right: 1.5rem;
+      }
+
+      .info-div > p:not(:first-child) {
+        margin-top: -0.5rem;
+      }
+      .info-div > p:first-child {
+        font-weight: 700;
+      }
+      .cart-name{
+        font-weight: 700;
+      }
 </style>
