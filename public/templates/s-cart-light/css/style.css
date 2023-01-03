@@ -1103,7 +1103,7 @@ html [class*='section-'].section-top-0 {
 * Light Backgrounds
 */
 .bg-default {
-	background-color: #ffffff;
+	background-color: rgba(235, 198, 247, 0.15);
 }
 
 .bg-primary {
