@@ -485,11 +485,11 @@ h3+img {
 }
 
 .font-family-sans-serif {
-	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .font-family-sans-serif-1 {
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .font-family-cursive {
@@ -1232,7 +1232,7 @@ html [class*='section-'].section-top-0 {
 * Light Backgrounds
 */
 .bg-default {
-	background-color: #ffffff;
+	background-color: rgba(235, 198, 247, 0.15);
 }
 
 .bg-primary {
@@ -1549,7 +1549,7 @@ html [class*='section-'].section-top-0 {
 p.rights {
 	letter-spacing: 0;
 	color: #777777;
-	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 p.rights a,
@@ -1736,7 +1736,7 @@ p.rights a:hover {
 	font-weight: 500;
 	line-height: 1;
 	letter-spacing: .05em;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: rgba(255, 255, 255, 0.14);
 	animation: titleColor 3s linear infinite;
 }
@@ -1972,7 +1972,7 @@ body {
 	font-size: 13px;
 	line-height: 1.6;
 	font-weight: 400;
-	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #777777;
 	background-color: #ffffff;
 	-webkit-text-size-adjust: none;
@@ -1995,7 +1995,7 @@ h6,
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: 400;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	letter-spacing: .025em;
 	text-transform: uppercase;
 	color: #151515;
@@ -2340,14 +2340,12 @@ a:hover {
 	text-decoration: none;
 }
 
-a,
-a:focus,
-a:active {
-	color: #d9a1a3;
+a, a:focus, a:active {
+	color: #eac444;
 }
 
 a:hover {
-	color: #59a7c5;
+	color: #eac444;
 }
 
 a[href*='tel'],
@@ -2383,7 +2381,7 @@ a[href*='mailto'] {
 	font-weight: 600;
 	letter-spacing: .13em;
 	text-transform: uppercase;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .link-tag,
@@ -2393,7 +2391,7 @@ a[href*='mailto'] {
 }
 
 .link-tag:hover {
-	color: #d9a1a3;
+	color: #eac444;
 }
 
 .link-shop {
@@ -2470,9 +2468,7 @@ a[href*='mailto'] {
 	color: inherit;
 }
 
-.link-primary,
-.link-primary:active,
-.link-primary:focus {
+.link-primary, .link-primary:active, .link-primary:focus {
 	color: #d9a1a3;
 }
 
@@ -4474,7 +4470,7 @@ p+.list-marked {
 }
 
 .list-social a:hover {
-	color: #d9a1a3;
+	color: #eac444;
 }
 
 .list-social-2 {
@@ -4498,7 +4494,7 @@ p+.list-marked {
 }
 
 .list-social-2 a:hover {
-	color: #d9a1a3;
+	color: #eac444;
 }
 
 .list-social-title {
@@ -7957,7 +7953,7 @@ textarea.textarea-lg {
 
 .breadcrumbs-custom-footer {
 	padding: 15px 0;
-	background: #f9faf9;
+	background: rgba(235, 198, 247, 0.15);
 }
 
 .breadcrumbs-custom-path {
@@ -8085,7 +8081,7 @@ textarea.textarea-lg {
 	line-height: 1.33333;
 	font-weight: 500;
 	letter-spacing: 0;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	transition: all 0.25s ease-in-out;
 }
 
@@ -8239,6 +8235,7 @@ textarea.textarea-lg {
 .footer-classic-panel {
 	text-align: center;
 	padding: 20px 0;
+	background-color: rgba(235, 198, 247, 0.15);
 }
 
 .footer-classic-panel a,
@@ -8302,7 +8299,7 @@ textarea.textarea-lg {
 	vertical-align: middle;
 	font-size: 18px;
 	line-height: 21px;
-	color: #d9a1a3;
+	color: white;
 }
 
 .contacts-creative li+li {
@@ -11984,8 +11981,7 @@ html.tablet .ui-to-top {
 	background: transparent;
 }
 
-.rd-navbar-static .rd-nav-item.focus>.rd-navbar-submenu-toggle,
-.rd-navbar-static .rd-nav-item.opened>.rd-navbar-submenu-toggle {
+.rd-navbar-static .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static .rd-nav-item.opened > .rd-navbar-submenu-toggle {
 	color: #d9a1a3;
 }
 
@@ -12019,7 +12015,7 @@ html.tablet .ui-to-top {
 	content: '\f236';
 }
 
-.rd-navbar-static .rd-nav-item>.rd-navbar-submenu-toggle:hover {
+.rd-navbar-static .rd-nav-item > .rd-navbar-submenu-toggle:hover {
 	color: #d9a1a3;
 }
 
@@ -12038,13 +12034,14 @@ html.tablet .ui-to-top {
 	line-height: 1.2;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #151515;
 	transition: all .25s ease-in-out;
 }
 
 .rd-navbar-static .rd-nav-link:hover {
-	color: #d9a1a3;
+	color: #eac444;
+		font-size: 14.3px;
 }
 
 .rd-navbar-static .rd-menu {
@@ -12112,8 +12109,7 @@ html.tablet .ui-to-top {
 	}
 }
 
-.rd-navbar-static .rd-dropdown-item.focus .rd-dropdown-link,
-.rd-navbar-static .rd-dropdown-item.opened .rd-dropdown-link {
+.rd-navbar-static .rd-dropdown-item.focus .rd-dropdown-link, .rd-navbar-static .rd-dropdown-item.opened .rd-dropdown-link {
 	color: #d9a1a3;
 }
 
@@ -12128,11 +12124,11 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-dropdown-link {
-	color: #151515;
+	color: #eac444;
 }
 
 .rd-navbar-static .rd-dropdown-link:hover {
-	color: #d9a1a3;
+	color: #eac444;
 }
 
 .rd-navbar-static .rd-dropdown-link,
@@ -12142,7 +12138,7 @@ html.tablet .ui-to-top {
 	font-weight: 400;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #151515;
 	transition: all .25s ease-in-out;
 }
@@ -12240,7 +12236,7 @@ html.tablet .ui-to-top {
 	font-weight: 600;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 @media (min-width: 1200px) {
@@ -12767,26 +12763,26 @@ html.tablet .ui-to-top {
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 0;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	color: #d9a1a3;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+		color: #eac444;
 	border-radius: 50%;
-	padding: 3px;
-	border: 1px solid;
+    padding: 3px;
+    border: 1px solid;
 }
 
 .rd-nav-item .count {
 	font-weight: 600;
 	letter-spacing: 0;
 	font-size: 12px;
-	color: #d9a1a3;
+	color: #eac444;
 	border-radius: 50%;
-	padding: 3px;
+    padding: 3px;
 	border: 1px solid;
 }
 
 
 .rd-navbar-basket:hover {
-	color: #d9a1a3;
+	color: #eac444;
 }
 
 .rd-navbar-basket-wrap {
@@ -12982,7 +12978,7 @@ html.tablet .ui-to-top {
 	font-weight: 600;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Poppins', "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .rd-navbar-fixed li.opened>.rd-navbar-dropdown {
@@ -13329,7 +13325,8 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-fixed-element-3 {
-	right: 80px;
+	right: 95px;
+		top: 19px;
 }
 
 .rd-navbar-fixed.rd-navbar--is-clone {
@@ -13361,7 +13358,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
 	color: #ffffff;
-	background: #ffffff;
+	background: rgba(235, 198, 247, 0.15);
 	border: 1px solid #d7d7d7;
 	box-shadow: 0 0 5px 0 rgba(1, 3, 4, 0.19);
 }
@@ -13536,6 +13533,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main-outer {
 	padding-left: 15px;
 	padding-right: 15px;
+	background: rgba(235, 198, 247, 0.15);
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main {
@@ -13807,7 +13805,7 @@ html.rd-navbar-fixed-linked .page {
 	background: #d9a1a3;
 }
 
-.rd-navbar-modern.rd-navbar-static .rd-nav-link {
+.rd-navbar-modern.rd-navbar-static {
 	padding: 25px 0;
 }
 
