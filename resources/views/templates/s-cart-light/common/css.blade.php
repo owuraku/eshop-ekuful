@@ -334,4 +334,12 @@
             margin: 0 0 30px;
         }
     }
+
+    .img-div {
+        width: 200px
+    }
+
+    .new-table {
+        width: 100%
+    }
 </style>
