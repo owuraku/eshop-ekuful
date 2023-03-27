@@ -1,8 +1,9 @@
 <style>
-.cart-img {
-    max-width: 250px;
-    max-height: 250px;
-}
+    .cart-img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
     .sc-overlay {
         position: fixed;
         top: 50%;
@@ -156,7 +157,7 @@
 
     .product-grid .product-image img {
         width: 100%;
-        height: auto;
+        height: 250px;
     }
 
     .product-grid .product-image .pic-1 {
