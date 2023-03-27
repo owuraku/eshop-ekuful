@@ -1,7 +1,7 @@
-@if (!empty($dataTotal) && count($dataTotal))
+{{-- @if (!empty($dataTotal) && count($dataTotal))
 <table class="table box table-bordered" id="showTotal">
     @foreach ($dataTotal as $key => $element)
-        @if ($element['code']=='total')
+        @if ($element['code'] == 'total')
             <tr class="showTotal" style="background:#f5f3f3;font-weight: bold;">
                 <th>{!! $element['title'] !!}</th>
                 <td style="text-align: right" id="{{ $element['code'] }}">
@@ -18,4 +18,4 @@
         @endif
     @endforeach
 </table>
-@endif
+@endif --}}

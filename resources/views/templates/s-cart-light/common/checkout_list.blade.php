@@ -20,7 +20,9 @@
                         if (!$product) {
                             continue;
                         }
+                        
                         // End check product in cart
+                        
                     @endphp
                     <tr
                         class="row_cart form-group {{ session('arrErrorQty')[$product->id] ?? '' }}{{ session('arrErrorQty')[$product->id] ?? 0 ? ' has-error' : '' }}">
@@ -62,9 +64,16 @@
                                 {{ $item->qty }}
                             </div>
                         </td>
-
-                        <td align="left">
+                        @php
+                            $item->subtotal = 0;
+                        @endphp
+                        {{-- <td align="left">
                             {{ sc_currency_render($item->subtotal) }}
+                        </td> --}}
+                        <td align="left">
+                            <div class="alert alert-success">
+                                Call For Price
+                            </div>
                         </td>
                     </tr>
                 @endforeach

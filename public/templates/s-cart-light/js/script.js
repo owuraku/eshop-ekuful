@@ -56,7 +56,8 @@
 			counter:                 document.querySelectorAll('.counter'),
 			progressLinear:          document.querySelectorAll('.progress-linear'),
 			progressCircle:          document.querySelectorAll('.progress-circle'),
-			countdown:               document.querySelectorAll('.countdown')
+			countdown:               document.querySelectorAll('.countdown'),
+			bbslider: $('.bbslider')
 		};
 
 	/**
@@ -267,6 +268,14 @@
 					$parallax.css({ "background-image": 'url('+ $parallax.data("parallax-img") +')' });
 				}
 			}
+		}
+
+		if (plugins.bbslider){
+			$(plugins.bbslider).bbslider({
+				auto:true,
+				timer:3000,
+				loop:true,
+			});
 		}
 	});
 

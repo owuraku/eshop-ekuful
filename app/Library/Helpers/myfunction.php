@@ -16,3 +16,21 @@ function getImageTwo(ShopProduct $product){
 
         return sc_file($product->getThumb());
 }
+
+if (!function_exists('sc_generate_id')){
+        function sc_generate_id($type="shop_order"){
+                $id = 'EK-'.date('Ymd').'-'.strtoupper(sc_token(5));
+        switch ($type) {
+            case 'shop_store':
+               return $id;
+                break;
+            case 'shop_order':
+                return $id;
+                break;
+            
+            default:
+                return sc_uuid();
+                break;
+        }
+        }
+}

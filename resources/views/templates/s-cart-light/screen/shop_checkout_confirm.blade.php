@@ -1,7 +1,7 @@
 @php
     /*
             $layout_page = shop_checkout
-            **Variables:**
+                                **Variables:**
             - $cart: no paginate
             - $shippingMethod: string
             - $paymentMethod: string
@@ -81,7 +81,15 @@
 
                                             <td>{!! $product->showPrice() !!}</td>
                                             <td>{{ $item->qty }}</td>
-                                            <td align="left">{{ sc_currency_render($item->subtotal) }}</td>
+                                            @php
+                                                $item->subtotal = 0;
+                                            @endphp
+                                            {{-- <td align="left">{{ sc_currency_render($item->subtotal) }}</td> --}}
+                                            <td align="left">
+                                                <div class="alert alert-success">
+                                                    Call For Price
+                                                </div>
+                                            </td>
                                         </tr>
                                         {{-- // Render product in cart --}}
                                     @endforeach
@@ -157,7 +165,7 @@
                                     <h3 class="control-label"><br></h3>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <table class="table box table-bordered" id="showTotal">
+                                            {{-- <table class="table box table-bordered" id="showTotal">
                                                 @foreach ($dataTotal as $key => $element)
                                                     @if ($element['code'] == 'total')
                                                         <tr class="showTotal" style="background:#f5f3f3;font-weight: bold;">
@@ -182,7 +190,7 @@
                                                         </tr>
                                                     @endif
                                                 @endforeach
-                                            </table>
+                                            </table> --}}
 
                                             @if (!sc_config('payment_off'))
                                                 {{-- Payment method --}}

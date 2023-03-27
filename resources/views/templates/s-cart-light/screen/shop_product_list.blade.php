@@ -1,7 +1,7 @@
 @php
     /*
 $layout_page = shop_product_list
-            **Variables:**
+                                                                **Variables:**
 - $subCategory: paginate
 Use paginate: $subCategory->appends(request()->except(['page','_token']))->links()
 - $products: paginate

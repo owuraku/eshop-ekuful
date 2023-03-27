@@ -10,7 +10,9 @@
                 <ul class="product-links">
                     <li><a onClick="addToCartAjax('{{ $product->id }}','wishlist','{{ $product->store_id }}')"
                             data-tip="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                    {{-- <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li> --}}
+                    <li><a data-product-name="{{ $product->name }}" class="open-details-modal"
+                            href="{{ $product->getUrl() }}/modal" data-tip="Quick View"><i class="fa fa-search"></i></a>
+                    </li>
 
                 </ul>
             </div>

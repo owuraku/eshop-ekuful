@@ -1,4 +1,4 @@
-@switch($kind)
+{{-- @switch($kind)
     @case(SC_PRODUCT_GROUP)
         <span class="sc-new-price">{!! sc_language_render('product.price_group') !!}</span>
         @break
@@ -9,4 +9,7 @@
             <span class="sc-new-price">{!! sc_currency_render($priceFinal) !!}</span>
             <span class="sc-old-price">{!!  sc_currency_render($price) !!}</span>
         @endif
-@endswitch
+@endswitch --}}
+<div class="alert alert-success" role="alert">
+    Call For Price
+</div>
